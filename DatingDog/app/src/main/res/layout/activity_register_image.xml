@@ -1,0 +1,58 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="userinterfaz.datingdog.innovo.datingdog.RegisterImageActivity"
+    android:background="@color/application_background">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#40E0D0">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dog_create_account_menu"
+            android:id="@+id/dogPerfilButton"
+            android:background="@color/no_selected_top_menu"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dog_create_account_imagens_menu"
+            android:id="@+id/datingButton"
+            android:background="@color/selected_top_menu"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:textColor="#FFFFFF" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/register_new_dog_profile"
+            android:id="@+id/registerNewDogProfileButton"
+            android:onClick="registerNewDogProfile"
+            android:layout_weight="1" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_comeback"
+            android:id="@+id/profileComeBackButton"
+            android:onClick="comeBack"
+            android:layout_weight="1" />
+    </TableRow>
+
+</TableLayout>

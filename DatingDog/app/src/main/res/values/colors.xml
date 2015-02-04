@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="application_background">#C9FFE5</color>
+    <color name="selected_top_menu">#4682B4</color>
+    <color name="no_selected_top_menu">#87CEEB</color>
+</resources>

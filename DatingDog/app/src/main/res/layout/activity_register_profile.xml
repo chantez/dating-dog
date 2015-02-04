@@ -1,0 +1,206 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="userinterfaz.datingdog.innovo.datingdog.RegisterProfileActivity"
+    android:background="@color/application_background">
+
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#40E0D0">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dog_create_account_menu"
+            android:id="@+id/dogPerfilButton"
+            android:background="@color/selected_top_menu"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dog_create_account_imagens_menu"
+            android:id="@+id/datingButton"
+            android:background="@color/no_selected_top_menu"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:textColor="#FFFFFF" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstNameTextView2"
+            android:layout_weight="1"
+            android:padding="@dimen/padding_5p"
+            android:text="@string/profile_dog_name"
+            android:textSize="@dimen/create_profile_text_size"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="5"
+            android:id="@+id/firstName2"
+            android:layout_weight="1"
+            android:padding="@dimen/padding_5p">
+            <requestFocus/>
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstNameTextView3"
+            android:layout_weight="1"
+            android:padding="@dimen/padding_5p"
+            android:text="@string/profile_dog_own"
+            android:textSize="@dimen/create_profile_text_size" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="5"
+            android:id="@+id/firstName3"
+            android:layout_weight="1"
+            android:padding="@dimen/padding_5p">
+            <requestFocus/>
+        </EditText>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstNameTextView4"
+            android:layout_weight="1"
+            android:padding="@dimen/padding_5p"
+            android:text="@string/profile_email"
+            android:textSize="@dimen/create_profile_text_size" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="5"
+            android:id="@+id/firstName4"
+            android:layout_weight="1"
+            android:padding="@dimen/padding_5p">
+            <requestFocus/>
+        </EditText>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstNameTextView5"
+            android:layout_weight="1"
+            android:padding="@dimen/padding_5p"
+            android:text="@string/profile_address"
+            android:textSize="@dimen/create_profile_text_size" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="5"
+            android:id="@+id/firstName5"
+            android:layout_weight="1"
+            android:padding="@dimen/padding_5p">
+            <requestFocus/>
+        </EditText>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstNameTextView"
+            android:layout_weight="1"
+            android:padding="@dimen/padding_5p"
+            android:text="@string/profile_password"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/create_profile_text_size" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="5"
+            android:id="@+id/firstName"
+            android:layout_weight="1"
+            android:padding="@dimen/padding_5p">
+            <requestFocus/>
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstNameTextView6"
+            android:layout_weight="1"
+            android:padding="@dimen/padding_5p"
+            android:text="@string/profile_password_repeat"
+            android:textSize="@dimen/create_profile_text_size" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="5"
+            android:id="@+id/firstNam6e"
+            android:layout_weight="1"
+            android:padding="@dimen/padding_5p">
+            <requestFocus/>
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_next"
+            android:id="@+id/registerImageNext"
+            android:onClick="goToImageRegister"
+            android:layout_weight="1" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_cancel"
+            android:id="@+id/registerCancelButton"
+            android:onClick="cancel"
+            android:layout_weight="1" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dating Dog</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dog_perfil">PERFIL</string>
+    <string name="dog_create_account_menu">CREAR CUENTA</string>
+    <string name="dog_create_account_imagens_menu">IMAGENES</string>
+    <string name="dating">DATING</string>
+    <string name="config">CONFIG</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="create_new_account">Registrar</string>
+    <string name="title_activity_register_profile">RegisterProfileActivity</string>
+    <string name="profile_dog_name">Nombre Mascota</string>
+    <string name="profile_dog_own">Nombre Criador</string>
+    <string name="profile_email">Coreo</string>
+    <string name="profile_address">Ubicación</string>
+    <string name="profile_phone">Teléfono</string>
+    <string name="profile_password">Contraseña</string>
+    <string name="profile_password_repeat">Repetir Contraseña</string>
+    <string name="profile_next">Siguiente -></string>
+    <string name="profile_cancel">Cancelar</string>
+    <string name="title_activity_register_image">RegisterImageActivity</string>
+    <string name="register_new_dog_profile">Crear cuenta</string>
+    <string name="profile_comeback">Volver</string>
+
+</resources>
